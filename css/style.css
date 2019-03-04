@@ -1,0 +1,168 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+	background-color:#F7F7F7;
+	color: #494949;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.status-bar {
+	z-index: 2;
+	position: fixed;
+ 	top: 0;
+	width: 100%;
+	text-align: right;
+	background-color: rgba(0, 0, 0, .25);
+}
+
+nav {
+  margin: 0 auto;
+  background-color: #27AE60;
+  padding: 56px 20px 0px 20px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.fa-arrow-left {
+	float: left;
+}
+
+h1 {
+	font-size: 1.25em;
+  text-align: left;
+  padding-left: 35px;
+}
+
+.fa-heart {
+	float:right;
+}
+
+.fa-arrow-left, h1, .fa-heart {
+	color: white;
+	display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-70%);
+}
+
+.content {
+	padding-top: 75px;
+	margin-bottom: 55px;
+}
+
+.route {
+	background-color: white;
+	padding: 20px 0 0 20px;
+	border-bottom: solid #bbbbbb .5px;
+	height: 75px;
+}
+
+.bus {
+  display: inline-block;
+  font-weight: bold;
+	font-size: 1em;
+	float: left;
+	width: 15%;
+	padding-top: 7px;
+}
+
+.destination {
+  display: inline-block;
+  font-size: 1em;
+  width: 47%;
+	line-height: 1.3;
+	float: left;
+}
+
+.direction {
+  display: inline-block;
+  color: #878787;
+  font-size: 0.75em;
+  width: 47%;
+	line-height: 1.3;
+	float: left;
+}
+
+.next-bus {
+	display: inline-block;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1.3;
+	font-weight: bold;
+  text-align: right;
+	width: 33%;
+}
+
+.frequency {
+  display: inline-block;
+  color: #878787;
+  font-size: 0.75em;
+  line-height: 1.3;
+  width: 33%;
+  text-align: center;
+  float: right;
+}
+
+.out-of-service, .reroute {
+	color: red;
+  text-transform: uppercase;
+}
+
+.fab {
+   width: 50px;
+   height: 50px;
+   background-color: #27AE60;
+   border-radius: 50%;
+   box-shadow: 0 6px 10px 0 #a5a5a5;
+
+   font-size: 50px;
+   color: white;
+   text-align: center;
+   line-height: 32px;
+
+   position: fixed;
+   right: 20px;
+   bottom: 70px;
+}
+
+.circle {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: blue;
+}
+
+.bottom-navbar {
+	width: 100%;
+	text-align: center;
+	background-color: #ECECEC;
+	position: fixed;
+	bottom: 0;
+}
+
+@media screen and (min-width: 575px) {
+	.route {
+		display: inline-block;
+		width: 46%;
+		margin: 0 1% 0 1%;
+		}
+	.status-bar, .bottom-navbar {
+		display: none;
+		}
+
+	nav {
+		padding: 15px;
+		}
+
+  .content {
+		padding-top: 50px;
+		}
+}
