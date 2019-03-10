@@ -10,7 +10,6 @@ body {
 }
 
 .container {
-  max-width: 575px;
   margin: 0 auto;
 }
 
@@ -71,7 +70,7 @@ h1 {
   font-weight: bold;
 	font-size: 1em;
 	float: left;
-	width: 19%;
+	width: 18%;
 }
 
 .circle {
@@ -84,10 +83,42 @@ h1 {
   line-height: 50px;
 }
 
+.r60 {
+  background: #F2994A;
+}
+
+.r124 {
+  background: #2F80ED;
+}
+
+.r151 {
+  background: #EB5757;
+}
+
+.j14 {
+  background: #EB57B9;
+}
+
+.r4 {
+  background: #052F5F;
+}
+
+.r6x {
+  background: #89023E;
+}
+
+.r20 {
+  background: #9B51E0;
+}
+
+.r157 {
+  background: #08605F;
+}
+
 .destination {
   display: inline-block;
   font-size: 1em;
-  width: 48%;
+  width: 51%;
 	line-height: 1.3;
 	float: left;
   padding: 8px 0 0 15px;
@@ -97,7 +128,7 @@ h1 {
   display: inline-block;
   color: #878787;
   font-size: 0.75em;
-  width: 48%;
+  width: 51%;
 	line-height: 1.3;
 	float: left;
   padding-left: 15px;
@@ -110,7 +141,7 @@ h1 {
   line-height: 1.3;
 	font-weight: bold;
   text-align: right;
-	width: 33%;
+	width: 31%;
   padding-top: 8px;
 }
 
@@ -119,7 +150,7 @@ h1 {
   color: #878787;
   font-size: 0.75em;
   line-height: 1.3;
-  width: 33%;
+  width: 31%;
   text-align: right;
 }
 
