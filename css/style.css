@@ -184,19 +184,3 @@ h1 {
 	position: fixed;
 	bottom: 0;
 }
-
-@media screen and (min-width: 575px) {
-	.route {
-		display: inline-block;
-		width: 48%;
-		margin: 0 1% 0 1%;
-		}
-
-	nav {
-		padding: 15px;
-		}
-
-  .content {
-		padding-top: 50px;
-		}
-}
